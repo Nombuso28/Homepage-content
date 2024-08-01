@@ -1,10 +1,38 @@
-P {
-  font-family: "Poppins", sans-serif;
+h1, h2, h3, h4, h5,h6 {
+  font-family: "poppins", sans-serif;
+  font-weight: normal;
+  font-weight: bold;
+}
+h1 {
+  font-size: 96px;
+}
+
+p{
+  font-family: "poppins", sans-serif;
   font-weight: normal;
 }
-div {
-  unicode-bidi: isolate;
+
+.hero {
+  background: #f9f7fe;
+  text-align: center;
+  padding: 160px, 0;
 }
-.bg-warning {
-  background-color: #ffc107 !important;
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+.hero h2 {
+  font-family: "poppins", sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 2;
+}
+.btn-button {
+  background: #6c63ff;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
 }
