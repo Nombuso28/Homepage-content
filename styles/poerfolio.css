@@ -1,0 +1,10 @@
+P {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+}
+div {
+  unicode-bidi: isolate;
+}
+.bg-warning {
+  background-color: #ffc107 !important;
+}
